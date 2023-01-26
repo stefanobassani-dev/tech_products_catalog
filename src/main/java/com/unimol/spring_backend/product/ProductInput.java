@@ -1,10 +1,12 @@
 package com.unimol.spring_backend.product;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class ProductInput {
@@ -12,5 +14,5 @@ public class ProductInput {
     private String name;
     private String description;
     private String imgUrl;
-    private float price;
+    private double price;
 }

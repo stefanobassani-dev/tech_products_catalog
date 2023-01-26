@@ -19,5 +19,5 @@ public class Product {
     private String name;
     private String description;
     private String imgUrl;
-    private float price;
+    private double price;
 }
