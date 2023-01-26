@@ -1,8 +1,5 @@
-package com.unimol.spring_backend.product.service;
+package com.unimol.spring_backend.product;
 
-import com.unimol.spring_backend.product.Product;
-import com.unimol.spring_backend.product.ProductInput;
-import com.unimol.spring_backend.product.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -39,8 +36,10 @@ public class ProductService {
                 .description("Last model of Apple Notebook")
                 .imgUrl("""
                         https://store.storeimages.cdn-apple.com/4668/
-                        as-images.apple.com/is/mbp-spacegray-select-202206_GEO_IT
-                        ?wid=640&hei=595&fmt=jpeg&qlt=95&.v=1664497359241""")
+                        as-images.apple.com/is/
+                        mbp-spacegray-select-202206_GEO_IT
+                        ?wid=640&hei=595&fmt=jpeg&qlt=95&
+                        .v=1664497359241""")
                 .price(1298.99)
                 .build());
 
@@ -51,9 +50,11 @@ public class ProductService {
                 .imgUrl("""
                         https://static1.unieuro.it/medias/sys_master
                         /root/hb8/hb0/34370507440158
-                        /-api-rest-00ed29448a7522f610cac04d7b9ea7e0
+                        /-api-rest-
+                        00ed29448a7522f610cac04d7b9ea7e0
                         -assets-3602c93e0f68e88cf9f8de090b2a5cdc
-                        -preview-sgmConversionBaseFormat-sgmProductFormat.jpg""")
+                        -preview-sgmConversionBaseFormat
+                        -sgmProductFormat.jpg""")
                 .price(1298.99)
                 .build());
 
